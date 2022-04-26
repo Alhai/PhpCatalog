@@ -14,16 +14,18 @@
                                         <thead>
                                             <tr>
                                                 <th scope="col"></th>
-                                                <th scope="col"></th>
+                                                <!-- <th scope="col"></th> -->
                                                 <th scope="col">Produit</th>
                                                 <th scope="col">Quantité</th>
                                                 <th scope="col">Prix</th>
-                                                <th scope="col" class="text-right">Total</th>
+                                                
                                             </tr>
                                         </thead>
                                         <tbody>
-                                            <tr>
-                                                <th scope="row">1</th>
+                                            <!-- <tr> -->
+
+                                           <?php showform($products) ?>
+                                            <!-- <th scope="row">1</th>
                                                 <td><a href="#" class="text-danger"><i class="ri-delete-bin-3-line"></i></a></td>
                                                 <td>Air Pods Max</td>
                                                 <td>
@@ -32,9 +34,9 @@
                                                 <td>
                                                 <div id="price0">90,00 €</div>
                                                 </td>
-                                                <td><div class="text-right" id="priceCasqTotal0">0,00 €</div></td>
-                                            </tr>
-                                            <tr>
+                                               -->
+                                            <!-- </tr> -->
+                                            <!-- <tr>
                                                 <th scope="row">2</th>
                                                 <td><a href="#" class="text-danger"><i class="ri-delete-bin-3-line"></i></a></td>
                                                 <td>Mont Blanc MB 01</td>
@@ -42,7 +44,7 @@
                                                     <div class="form-group mb-0"><input type="number" class="form-control cart-qty" name="qtyCasq1" id="qtyCasq1"  min="0" value="0"></div>
                                                 </td>
                                                 <td id="price1">90,00 €</td>
-                                                <td class="text-right" id="priceCasqTotal1">0,00 €</td>
+                                                
                                             </tr>
                                             <tr>
                                                 <th scope="row">3</th>
@@ -50,10 +52,10 @@
                                                 <td>BeyerDynamic</td>
                                                 <td>
                                                     <div class="form-group mb-0"><input type="number" class="form-control cart-qty" name="qtyCasq2" id="qtyCasq2" min="0" value="0"></div>
-                                                </td>
+                                                </td> 
                                                 <td id="price2">70,00 €</td>
-                                                <td class="text-right" id="priceCasqTotal2">0,00 €</td>
-                                            </tr>
+                                              
+                                            </tr> -->
                                         </tbody>
                                     </table>
                                 </div>

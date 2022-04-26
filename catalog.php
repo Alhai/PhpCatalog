@@ -1,6 +1,7 @@
 <?php
 $products = [
   "AirPods Max"=> [
+     "id" => 1,
       "Name" => "AirPods Max Gris",
       "Price" => 10000,
       "Weight" => 200,
@@ -12,6 +13,7 @@ $products = [
     ],
   
   "Montblanc" => [
+    "id" => 2,
       "Name" => "Montblanc over-ear MB 01",
       "Price" => 10000,
       "Weight" => 200,
@@ -23,6 +25,7 @@ $products = [
     ],
     
     "BeyerDynamic" => [
+      "id" => 3,
       "Name" => "BEYERDYNAMIC DT 770 PRO",
       "Price" => 10000,
       "Weight" => 150,

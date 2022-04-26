@@ -27,11 +27,12 @@
       <p>Le Panier est Vide </p>
     </div>';
    
-      } if ($number != 0){
+      } 
+      // if ($number != 0){
           
-          $price = $number * 90;
-          echo $price;
-      }
+      //     $price = $number * $price;
+      //     echo $price;
+      // }
   } 
     
 }
